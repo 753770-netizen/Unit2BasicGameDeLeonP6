@@ -2275,6 +2275,7 @@ GameObject:
   - component: {fileID: 1711399617039749298}
   - component: {fileID: 8288322496741957455}
   - component: {fileID: 3287315348184582053}
+  - component: {fileID: 4113874591642211057}
   m_Layer: 0
   m_Name: Rhodesian
   m_TagString: Untagged
@@ -2369,6 +2370,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+--- !u!114 &4113874591642211057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848191126524834275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b506e1c2639d14196be8f648f11676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2869452313615286030
 GameObject:
   m_ObjectHideFlags: 0
