@@ -2276,6 +2276,8 @@ GameObject:
   - component: {fileID: 8288322496741957455}
   - component: {fileID: 3287315348184582053}
   - component: {fileID: 4113874591642211057}
+  - component: {fileID: 2902791847611930773}
+  - component: {fileID: 6175248977890189093}
   m_Layer: 0
   m_Name: Rhodesian
   m_TagString: Untagged
@@ -2380,6 +2382,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a2b506e1c2639d14196be8f648f11676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2902791847611930773
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848191126524834275}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10466409, y: 0.19292761, z: 0.3084484}
+  m_Center: {x: 0.0040142476, y: 0.09469301, z: 0.041147318}
+--- !u!114 &6175248977890189093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2848191126524834275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b08c50b75344b47b2d9ed6568a3a79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2869452313615286030

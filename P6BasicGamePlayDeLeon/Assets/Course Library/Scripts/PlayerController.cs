@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
         {
             // Launch a projectile from the player
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            if (projectilePrefab == null) { return; }
         }
 
         //Keeping player inbounds
