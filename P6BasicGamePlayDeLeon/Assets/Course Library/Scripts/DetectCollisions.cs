@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Detect : MonoBehaviour
+public class DetectCollisions : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -9,12 +9,7 @@ public class Detect : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
         Destroy(other.gameObject);

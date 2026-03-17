@@ -762,6 +762,7 @@ Transform:
   - {fileID: 1590138455}
   - {fileID: 425805627}
   - {fileID: 287657230}
+  - {fileID: 8734697955524664311}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1338447846
@@ -1022,7 +1023,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 992285706}
     m_Modifications:
     - target: {fileID: 7462606395763473017, guid: 252c1af5545536047a5fd2a732c116df, type: 3}
       propertyPath: m_Name
@@ -1046,7 +1047,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8481531933487500414, guid: 252c1af5545536047a5fd2a732c116df, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8481531933487500414, guid: 252c1af5545536047a5fd2a732c116df, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1075,6 +1076,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7462606395763473017, guid: 252c1af5545536047a5fd2a732c116df, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8734697955524664306}
+    - targetCorrespondingSourceObject: {fileID: 7462606395763473017, guid: 252c1af5545536047a5fd2a732c116df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8734697955524664312}
   m_SourcePrefab: {fileID: 100100000, guid: 252c1af5545536047a5fd2a732c116df, type: 3}
 --- !u!1 &8734697955524664300 stripped
 GameObject:
@@ -1108,6 +1112,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &8734697955524664311 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8481531933487500414, guid: 252c1af5545536047a5fd2a732c116df, type: 3}
+  m_PrefabInstance: {fileID: 1103819096135128749}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8734697955524664312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8734697955524664300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b08c50b75344b47b2d9ed6568a3a79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1115,7 +1136,6 @@ SceneRoots:
   - {fileID: 534669905}
   - {fileID: 170076735}
   - {fileID: 992285706}
-  - {fileID: 1103819096135128749}
   - {fileID: 1455189129}
   - {fileID: 561698573}
   - {fileID: 1680778805}
