@@ -10,8 +10,8 @@ public class DetectCollisions : MonoBehaviour
 
     // Update is called once per frame
     void OnTriggerEnter(Collider other)
+    if(other.CompareTag("Player"))
     {
-        Destroy(gameObject);
-        Destroy(other.gameObject);
+
     }
 }
