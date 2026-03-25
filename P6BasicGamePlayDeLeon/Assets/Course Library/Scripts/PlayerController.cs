@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public float zMin;
     public float zMax;
     public float verticalInput;
-
+    public Transform projectileSpawnPoint;
 
     void Start()
     {
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // Launch a projectile from the player
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, projectileSpawnPoint.position, projectilePrefab.transform.rotation);
             if (projectilePrefab == null) { return; }
         }
     }
